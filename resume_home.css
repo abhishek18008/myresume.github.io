@@ -1,0 +1,467 @@
+body {
+  margin: 0px;
+}
+
+/* Header Section */
+
+#body_header {
+  height: 65vh;
+  opacity: 0.7;
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Horizonatal Navigation Bar*/
+
+.navigation_bar {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.navigation_bar li {
+  display: inline-block;
+  margin: 0px 18px 0px 18px;
+}
+
+.navigation_bar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation_bar li a:hover {
+  color: aqua;
+  border: 1px solid white;
+  transition: color 0.5s;
+}
+
+/* Name And Social Icons*/
+#nameN_Icons {
+  margin-top: 20vh;
+}
+
+#Name {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+/* Icons*/
+#SocialIcons {
+  text-align: center;
+}
+
+#SocialIcons li {
+  display: inline;
+  margin: 0px 10px 0px 10px;
+  padding: 8px;
+}
+
+#SocialIcons li a img {
+  height: 30px;
+  width: 30px;
+}
+
+section {
+  width: 100%;
+}
+/*Main*/
+section:nth-child(2n) {
+  background-color: rgba(164, 188, 215, 0.342);
+}
+
+/*About*/
+
+#about {
+  width: 80%;
+}
+
+#myimg {
+  height: 12rem;
+  width: 12rem;
+
+  position: relative;
+  top: -90px;
+  left: 39vw;
+}
+
+#myimg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 500px;
+}
+
+#AboutMEText {
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
+}
+/*Skills Section*/
+
+#Skills {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(164, 188, 215, 0.342);
+  align-items: center;
+  display: inline-block;
+}
+
+.skillHeading {
+  font-weight: bolder;
+  margin: 20px;
+  padding: 20px 10px 10px;
+  font-size: 50px;
+  color: #012b66;
+}
+
+.skillHeading span img {
+  height: 45px;
+  width: 45px;
+}
+
+/*Skills display*/
+.skilldisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*width: 70%;*/
+  /*border-radius: 20px;
+  border-color: black;
+  height: 200px;*/
+}
+
+.skillbox {
+  height: 60px;
+  width: 300px;
+  background-color: gainsboro;
+  border-radius: 40px;
+  border-width: 6px;
+  margin: 20px 32px;
+}
+
+.skillprogress {
+  border-radius: 40px 0px 0px 40px;
+  height: inherit;
+}
+
+#Cpp {
+  width: 70%;
+  background-color: blue;
+}
+#HTML {
+  width: 70%;
+  background-color: rgb(0, 255, 72);
+}
+#JavaScript {
+  width: 65%;
+  background-color: rgb(248, 220, 80);
+}
+
+#DSA {
+  width: 80%;
+  background-color: maroon;
+}
+#NodeJs {
+  width: 60%;
+  background-color: rgba(243, 208, 149, 0.852);
+}
+#Express {
+  width: 40%;
+  background-color: rgb(0, 124, 128);
+}
+
+#CSS {
+  width: 60%;
+  background-color: rgb(243, 43, 223);
+}
+
+.skillname {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+/*Work experience*/
+
+#Experience {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  align-items: center;
+  display: inline-block;
+}
+
+.ExperienceHeading {
+  font-weight: bolder;
+  margin: 20px;
+  padding: 20px 10px 10px;
+  font-size: 50px;
+  color: #012b66;
+}
+
+.ExperienceHeading span img {
+  height: 45px;
+  width: 45px;
+}
+
+.timeline {
+  height: auto;
+  position: relative;
+  width: 75%;
+  border-style: solid;
+  border-width: 2px;
+  margin: auto;
+}
+
+.timeline-boxes {
+  left: 25px;
+  margin: 1px;
+  position: relative;
+  width: 40%;
+  border-style: solid;
+  border-width: 1px;
+  min-height: 180px;
+}
+
+.timeline-boxes:nth-child(2n) {
+  margin-left: 53%;
+}
+
+/*.uppertext{
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+
+}
+
+.uppertext img{
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  
+}
+
+.uppertext span{
+  font-size: large;
+  color: coral;
+  font-weight: bold;
+}
+*/
+.timelinedivider {
+  position: absolute;
+  height: 75%;
+  width: 1px;
+  border: 3px dashed black;
+  left: 50%;
+  top: 10%;
+  display: flex;
+}
+
+.aeroplane img {
+  height: 25px;
+  position: sticky;
+  top: 25%;
+  transform: rotate(180deg);
+}
+
+/*Education*/
+#Education {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.EduactionHeading {
+  font-weight: bolder;
+  margin: 20px;
+  padding: 20px 10px 10px;
+  font-size: 50px;
+  color: #012b66;
+}
+
+.EduactionHeading span img {
+  height: 45px;
+  width: 45px;
+}
+
+.timeline {
+  height: auto;
+  position: relative;
+  width: 75%;
+  border-style: solid;
+  border-width: 2px;
+  margin: auto;
+}
+
+.timeline-boxes {
+  left: 25px;
+  margin: 5px;
+  position: relative;
+  width: 40%;
+  border-style: solid;
+  border-width: 1px;
+  min-height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.timeline-boxes:nth-child(2n) {
+  margin-left: 53%;
+}
+
+.timeline-boxes > div {
+  height: 40%;
+  width: 40%;
+}
+
+.timeline-boxes img {
+  height: 50px;
+}
+
+.ClassName {
+  height: 40px;
+  width: 40%;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.Schooldescription {
+  height: 100px;
+  width: 80%;
+  /* border: 2px solid red;*/
+  font-size: x-large;
+  margin: auto;
+  text-align: justify;
+}
+
+.timelinedivider {
+  position: absolute;
+  height: 75%;
+  width: 0px;
+  /*border: 1px dashed black;*/
+  left: 50%;
+  top: 10%;
+}
+
+.aeroplane img {
+  height: 25px;
+  position: sticky;
+  top: 25%;
+  transform: rotate(180deg);
+}
+
+/* PortFolio*/
+
+#Portfolio {
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.portfoliobanner {
+  font-weight: bolder;
+  margin: 20px;
+  padding: 20px 10px 10px;
+  font-size: 50px;
+  color: #012b66;
+}
+
+.portfoliobanner span img {
+  height: 45px;
+  width: 45px;
+}
+
+/*PortFolio icons*/
+.portfolio_icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#project1 {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
+
+#project1 img {
+  width: 100%;
+}
+
+/*Contact*/
+#Contact {
+  background-color: #7b61aa;
+}
+
+.contactinfo {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+.contactform {
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+button[type="submit"]{
+  width: 50%;
+  height: 35px;
+  background-color: darkcyan;
+  font-weight: 700;
+  font-size: larger;
+  color: hotpink;
+}
+
+label{
+  font-size: 1.5em;
+  color: rgb(52, 186, 61);
+}
+
+.findme{
+  color: lightcoral;
+  width: 50%;
+  margin-left: 10%;
+ /* border: 2px solid red;*/
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#contactmain{
+display: flex;
+}
